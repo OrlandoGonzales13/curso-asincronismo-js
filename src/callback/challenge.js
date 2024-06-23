@@ -20,15 +20,15 @@ function fetchData(urlApi, callback) {
     xhttp.send();
 }
 
-fetchData(`${API}/products`, function (err, dat) {
-    if (err) return console.error(err);
-    console.log(dat);
-})
+// fetchData(`${API}/products`, function (err, dat) {
+//     if (err) return console.error(err);
+//     console.log(dat);
+// })
 
-fetchData(`${API}/products`, function (err, dat) {
-    if (err) return console.error(err);
-    console.log(dat[0]);
-})
+// fetchData(`${API}/products`, function (err, dat) {
+//     if (err) return console.error(err);
+//     console.log(dat[0]);
+// })
 
 fetchData(`${API}/products`, function (error1, data1) {
     if (error1) return console.error(error1);
