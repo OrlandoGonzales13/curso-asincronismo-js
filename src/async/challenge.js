@@ -12,7 +12,7 @@ const anotherFunction = async (urlApi) => {
         const products = await fetchData(`${urlApi}/products`);
         const product = await fetchData(`${urlApi}/products/${products[0].id}`);
         const category = await fetchData(`${urlApi}/categories/${product.category.id}`);
-
+        v
         console.log(products);
         console.log(product.title);
         console.log(category.name);
